@@ -59,7 +59,7 @@
         const {url, mobile, domain} = this
         this.submit = true
         try {
-          var data22 = await axios.post(`  'http://192.168.10.78:3007/hongbao`, {url, mobile})
+          var data22 = await axios.post('http://192.168.10.78:3007/hongbao', {url, mobile})
           const {data: {message}}=data22;
           alert(message)
         } catch (e) {

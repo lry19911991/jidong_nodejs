@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "nodemon $NODE_DEBUG_OPTION ./bin/www",
+    "start": "pm2 start ./bin/www --name hongbao --instances 2",
+    "reload": "pm2 reload hongbao"
+  },
+  "dependencies": {
+    "superagent": "^3.8.2",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "crypto-js": "^3.1.9-1",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "log4js": "^2.5.3",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}

@@ -4,22 +4,12 @@
 
 ## 目录
 
-<table>
-  <tr>
-    <td>服务端</td>
-    <td><a href="server">server</a></td>
-    <td>https://hongbao.xxooweb.com/</td>
-  </tr>
-  <tr></tr>
-  <tr>
-    <td>网页端</td>
-    <td><a href="web">web</a></td>
-    <td>http://www.elemhb.top/</td>
-  </tr>
-  <tr></tr>
-  <tr>
-    <td>小程序</td>
-    <td><a href="weapp">weapp</a></td>
-    <td>微信审核被拒了，先晾着吧</td>
-  </tr>
-</table>
+用nodejs 写的前后端分离
+
+
+前端 web 目录下 ，技术栈是 poi+vue+bootstrap
+
+后端 server 目录  技术栈是 express+superagent
+
+
+
